@@ -349,6 +349,5 @@ async def main():
         # Disconnect
         await sphero.disconnect()
 
-
 if __name__ == "__main__":
     asyncio.run(main())
